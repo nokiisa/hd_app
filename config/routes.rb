@@ -1,13 +1,17 @@
 HdApp::Application.routes.draw do  
-  get 'cities/showall'
-  resources :cities
-  
-  match '/show_info/' => 'show_info#show', :status => "status_value"
-  get "show_info/show"
+  get "users/showall"
 
-  get "show_info/open"
+  get "monsters/showall"
 
-  get "show_info/close"
+#  get 'cities/showall'
+#  resources :cities
+#  
+#  match '/show_info/' => 'show_info#show', :status => "status_value"
+#  get "show_info/show"
+#
+#  get "show_info/open"
+#
+#  get "show_info/close"
 
   
 
