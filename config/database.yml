@@ -9,9 +9,9 @@ development:
   reconnect: false
   database: purple
   pool: 5
-  username: taapit
-  password: ucqpGup34UGrNczG
-  host: taap.it  
+  username: root
+  password: 
+  host: localhost 
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -20,11 +20,11 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: purple_test
+  database: purple
   pool: 5
-  username: taapit
-  password: ucqpGup34UGrNczG
-  host: taap.it
+  username: root
+  password: 
+  host: localhost
 
 production:
   adapter: mysql2
@@ -32,6 +32,6 @@ production:
   reconnect: false
   database: purple
   pool: 5
-  username: taapit
-  password: ucqpGup34UGrNczG
-  host: taap.it
+  username: root
+  password: 
+  host: localhost
