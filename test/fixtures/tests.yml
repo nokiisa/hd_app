@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  test_id: 
+  note: MyString
+  note2: MyString
+
+two:
+  test_id: 
+  note: MyString
+  note2: MyString

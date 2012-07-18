@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  citydetails_id: MyString
+  danso: 
+  dientich: 1
+  khuvuc: MyString
+
+two:
+  citydetails_id: MyString
+  danso: 
+  dientich: 1
+  khuvuc: MyString
